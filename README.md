@@ -9,8 +9,3 @@
 6. src folder create
 7. tsconfig.json -> "rootDir": "./src" | "outDir": "./dist".
 
-## Primitive Data Types
-1. string, number, boolean, null, undefined
-
-
-# typescript-conceptual
