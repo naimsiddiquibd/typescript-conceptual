@@ -1,0 +1,17 @@
+{
+  "name": "typescript-conceptual",
+  "version": "1.0.0",
+  "description": "## Typescript Setup: 1. tsc --init 2. npm init -y 3. npm i nodemon -> ekbar run kore rakhlei cholte thake, bar bar run korte hoyna 4. npm i ts-node-dev 5. ts-node-dev --respawn --transpile-only server.ts (url: npmjs.com/package/ts-node-dev theke copy kore ana jabe, erpor package.json er scripts er moddhe \"start\": \"ts-node-dev --respawn --transpile-only src/server.ts\" diye dite hobe) 6. src folder create",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.10",
+    "ts-node-dev": "^2.0.0"
+  }
+}
