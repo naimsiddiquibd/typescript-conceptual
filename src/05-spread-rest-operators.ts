@@ -1,4 +1,8 @@
 // Spread Operator
+const numbers2 = [1, 2, 3];
+const newNumbers = [...numbers2, 4, 5]; // Using spread operator to create a new array with additional elements
+console.log(newNumbers);  // [1, 2, 3, 4, 5]
+
 const heroArray1: string[] = ["Spider-Man", "Iron Man", "Captain America"];
 const heroArray2: string[] = ["Thor", "Hulk", "Black Widow"];
 
